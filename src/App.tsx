@@ -5,6 +5,7 @@ import BannerThree from './Components/BannerThree';
 import BannerFour from './Components/BannerFour';
 import Contacts from './Components/Contacts';
 import Sidebar from './Components/Sidebar';
+import Chatbot from './Components/ChatBot';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
@@ -26,6 +27,7 @@ const App: React.FC = () => {
           <BannerThree />
           <BannerFour />
           <Contacts/> 
+          <Chatbot/>
 
         </main>
       </div>
